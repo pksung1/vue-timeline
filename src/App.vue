@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <timeline-view></timeline-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import TimelineView from './TimelineRefect/index'
+import '../node_modules/font-awesome/scss/font-awesome.scss'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+      TimelineView,
+    //   AnimationIndex
   }
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

@@ -1,0 +1,56 @@
+// @import '../../../../node_modules/font-awesome/fonts/' ;
+@import '../../../../node_modules/font-awesome/css/font-awesome.min.css';
+
+// Colors
+
+$blue: #307CBF;
+$sky: #4BD4F2;
+$yellow: #D9A362;
+$orange: #D95407;
+$red: #D92D07;
+
+$white: #ffffff;
+$white-300: #F2F2F2;
+$gray: #A6A6A6;
+$gray-300: #d4d4d4;
+$gray-400: #737373;
+$gray-600: #404040;
+$gray-900: #0D0D0D;
+$black: #000000;
+
+// Badge 스타일
+$badge-top: 30px;
+$badge-small: 25px;
+$badge-regular: 35px;
+$badge-large: 50px;
+$badge-font-small: 5px;
+$badge-font-regular: 18px;
+$badge-font-large: 26px;
+
+$badge-colors: (
+    'blue': $blue,
+    'sky': $sky,
+    'yellow': $yellow,
+    'orange': $orange,
+    'red': $red
+);
+
+// content-box 스타일
+$content-colors: (
+    'blue': $blue,
+    'sky': $sky,
+    'yellow': $yellow,
+    'orange': $orange,
+    'red': $red
+);
+
+// content-box text color
+$content-text-colors: (
+    'blue': $white,
+    'sky': $black,
+    'yellow': $black,
+    'orange': $white,
+    'red': $white
+);
+
+$timeline-bg: $white-300;
